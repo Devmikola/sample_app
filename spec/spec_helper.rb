@@ -2,7 +2,7 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-#Commented 'cause it's deprecated, given warning when execute
+#Commented because it's deprecated, given warning when execute
 #require 'rspec/autorun'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
