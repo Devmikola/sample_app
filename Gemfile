@@ -3,15 +3,27 @@ ruby '2.1.5'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.1.8'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.2.0'
+
+  gem 'rb-notifu'
+  gem 'win32console'
+# Minitest needed for rspec using throw the guard
+  gem 'minitest'
+  gem 'wdm'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
