@@ -21,7 +21,7 @@ group :test do
   gem 'capybara', '2.2.0'
 
   gem 'rb-notifu'
-  gem 'win32console'
+  gem 'factory_girl_rails'
 # Minitest needed for rspec using throw the guard
   gem 'minitest'
   gem 'wdm'
