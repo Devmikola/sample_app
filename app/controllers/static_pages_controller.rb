@@ -6,9 +6,6 @@ class StaticPagesController < ApplicationController
   end
 
   def about
-  	@name = "KOLYA"
-  	
-
   end
 
   def contact
