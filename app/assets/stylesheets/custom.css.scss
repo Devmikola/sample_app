@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -186,5 +186,34 @@ input {
     &:last-child {
       border-bottom: 1px solid $gray-light;
     }
+  }
+}
+
+/* microposts */
+
+.microposts {
+  margin: 10px 0 0 0;
+
+  li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+    height: 100px;
+  }
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: $gray-light;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
   }
 }

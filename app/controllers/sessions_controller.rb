@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
-  before_action :facecontroll, only: [:new, :create]
+  #before_action :facecontroll, only: [:new, :create]
   
   def new
 
