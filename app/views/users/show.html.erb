@@ -5,8 +5,12 @@
       <h1 style="padding-top: 30px;">
         <%= @user.name %>
       </h1>
+      <section>
+        <%= render 'shared/stats' %>
+    </section>
   </div>
   <div class="span8"  style="float:left; margin-left: 100px;">
+    <%= render 'follow_form' if signed_in? %>
     <% if @microposts.any? %>
       <h3 style="padding-left: 40px;">Microposts (<%= @microposts.count %>)</h3>
       <ol class="microposts">
